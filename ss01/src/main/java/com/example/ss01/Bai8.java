@@ -7,7 +7,7 @@ import jakarta.servlet.annotation.*;
 import java.io.IOException;
 import java.util.ArrayList;
 
-@WebServlet("/job")
+@WebServlet(value = "/bai8")
 public class Bai8 extends HttpServlet {
     private ArrayList<Job> jobList;
 

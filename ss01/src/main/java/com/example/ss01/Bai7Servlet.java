@@ -9,7 +9,7 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
-@WebServlet(name = "Bai7Servlet", value = "/Bai7Servlet")
+@WebServlet(name = "Bai7Servlet", value = "/bai7")
 public class Bai7Servlet extends HttpServlet {
     private static final List<Bai7> studentList = new ArrayList<>();
 
