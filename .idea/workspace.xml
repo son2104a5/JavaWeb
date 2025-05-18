@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48200b04-f6ed-4ad0-877c-e65d9125e93c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ss10/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/BookingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/DocumentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/LibraryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/ProductManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/UploadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/UserProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/repository/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/service/CloudinaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B1/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B1/userForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B10/productForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B10/productList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B2/productForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B2/productResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B3/registerForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B3/registerResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B4/uploadForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B4/uploadResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B5/documentForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B5/documentResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B6/uploadForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B6/uploadResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B7/projectForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B7/projectSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B8/bookingForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B8/ticketResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B9/bookForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B9/bookList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss10" beforeDir="false" afterPath="$PROJECT_DIR$/ss10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss10/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss10/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss10/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;son2104a5&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1746524204" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1746524203" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1747374667" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1747374666" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/ss09" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/son2104a5/JavaWeb.git&quot;,
+    &quot;accountId&quot;: &quot;64c92f05-0da8-4b9f-97bf-47b2fb69ddf6&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2wiUsVuBpfn6iZyRXupZ9WdzpZG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/JavaWeb&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48200b04-f6ed-4ad0-877c-e65d9125e93c" name="Changes" comment="" />
+      <created>1746524094508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746524094508</updated>
+      <workItem from="1746524096060" duration="135000" />
+      <workItem from="1746524307337" duration="164000" />
+      <workItem from="1746524487059" duration="114000" />
+      <workItem from="1746524615060" duration="34000" />
+      <workItem from="1746524866051" duration="55000" />
+      <workItem from="1746525940543" duration="7000" />
+      <workItem from="1746525984305" duration="15000" />
+      <workItem from="1746596227294" duration="37000" />
+      <workItem from="1746608406751" duration="552000" />
+      <workItem from="1746609017292" duration="173000" />
+      <workItem from="1746609231852" duration="222000" />
+      <workItem from="1746669251470" duration="64000" />
+      <workItem from="1746669532811" duration="50000" />
+      <workItem from="1746694455202" duration="29000" />
+      <workItem from="1746766542180" duration="45000" />
+      <workItem from="1746779563761" duration="74000" />
+      <workItem from="1747281377124" duration="107000" />
+      <workItem from="1747281531103" duration="118000" />
+      <workItem from="1747281679405" duration="63000" />
+      <workItem from="1747297982181" duration="28000" />
+      <workItem from="1747374627666" duration="70000" />
+      <workItem from="1747385334539" duration="35000" />
+      <workItem from="1747584695955" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
