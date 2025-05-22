@@ -5,57 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48200b04-f6ed-4ad0-877c-e65d9125e93c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss10/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/BookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/DocumentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/LibraryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/ProductManagementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/ProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/ProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/UploadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/model/UserProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/repository/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/service/CloudinaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B1/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B1/userForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B10/productForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B10/productList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B2/productForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B2/productResult.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B3/registerForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B3/registerResult.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B4/uploadForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B4/uploadResult.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B5/documentForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B5/documentResult.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B6/uploadForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B6/uploadResult.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B7/projectForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B7/projectSuccess.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B8/bookingForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B8/ticketResult.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B9/bookForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/src/main/webapp/WEB-INF/views/B9/bookList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10" beforeDir="false" afterPath="$PROJECT_DIR$/ss10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/src/main/java/demo/ss10/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +131,8 @@
       <workItem from="1747374627666" duration="70000" />
       <workItem from="1747385334539" duration="35000" />
       <workItem from="1747584695955" duration="40000" />
+      <workItem from="1747584781883" duration="158000" />
+      <workItem from="1747643984205" duration="6000" />
     </task>
     <servers />
   </component>
