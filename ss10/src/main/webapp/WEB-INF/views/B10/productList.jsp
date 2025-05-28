@@ -4,7 +4,7 @@
 <head><title>Danh sách sản phẩm</title></head>
 <body>
 <h2>Danh sách sản phẩm</h2>
-<a href="/products/add">➕ Thêm sản phẩm</a>
+<a href="products/add">➕ Thêm sản phẩm</a>
 <table border="1">
     <tr>
         <th>Tên</th><th>Giá</th><th>Tồn kho</th><th>Ảnh</th><th>Thao tác</th>
