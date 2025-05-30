@@ -1,0 +1,17 @@
+<h2>Danh sách đơn hàng</h2>
+<table>
+    <tr>
+        <th>Mã đơn hàng</th>
+        <th>Tên người nhận</th>
+        <th>Địa chỉ</th>
+        <th>Điện thoại</th>
+        <th>Hành động</th>
+    </tr>
+    <tr th:each="order : ${orders}">
+        <td th:text="${order.orderId}"></td>
+        <td th:text="${order.recipientName}"></td>
+        <td th:text="${order.address}"></td>
+        <td th:text="${order.phoneNumber}"></td>
+        <td><a th:href="@{'/orders/' + ${order.orderId}}">Xem chi tiết</a></td>
+    </tr>
+</table>

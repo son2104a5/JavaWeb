@@ -1,0 +1,23 @@
+<h2>Thông tin đặt hàng</h2>
+<form th:action="@{/checkout/add}" th:object="${order}" method="post">
+    <label>Họ tên người nhận:</label>
+    <input type="text" th:field="*{recipientName}" required />
+
+    <label>Địa chỉ:</label>
+    <input type="text" th:field="*{address}" required />
+
+    <label>SĐT:</label>
+    <input type="text" th:field="*{phoneNumber}" required />
+
+    <button type="submit">Đặt hàng</button>
+</form>
+
+<h2>Giỏ hàng</h2>
+<table>
+    <tr><th>Sản phẩm</th><th>Số lượng</th><th>Thành tiền</th></tr>
+    <tr th:each="item : ${cartItems}">
+        <td th:text="${item.name}"></td>
+        <td th:text="${item.quantity}"></td>
+        <td th:text="${item.totalPrice}"></td>
+    </tr>
+</table>

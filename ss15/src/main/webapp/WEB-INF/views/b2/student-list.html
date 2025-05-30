@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Danh sách sinh viên</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+</head>
+<body class="bg-gray-100 p-6">
+<h1 class="text-2xl font-bold mb-4">Danh sách sinh viên</h1>
+<table class="table-auto w-full bg-white shadow-md rounded border">
+    <thead class="bg-gray-200 text-left">
+    <tr>
+        <th class="p-2">Mã SV</th>
+        <th class="p-2">Tên</th>
+        <th class="p-2">Tuổi</th>
+        <th class="p-2">Lớp</th>
+        <th class="p-2">Email</th>
+        <th class="p-2">Địa chỉ</th>
+        <th class="p-2">SĐT</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="s : ${students}" class="border-b hover:bg-gray-50">
+        <td class="p-2" th:text="${s.id}"></td>
+        <td class="p-2" th:text="${s.name}"></td>
+        <td class="p-2" th:text="${s.age}"></td>
+        <td class="p-2" th:text="${s.className}"></td>
+        <td class="p-2" th:text="${s.email}"></td>
+        <td class="p-2" th:text="${s.address}"></td>
+        <td class="p-2" th:text="${s.phone}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

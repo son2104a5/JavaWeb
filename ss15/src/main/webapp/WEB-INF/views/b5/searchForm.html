@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Search Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="p-6">
+<h2 class="text-2xl font-bold mb-4">Tìm kiếm sản phẩm</h2>
+
+<form th:action="@{/search}" method="post" class="mb-4">
+    <input type="text" name="keyword" th:value="${keyword}" placeholder="Nhập tên hoặc mã sản phẩm"
+           class="border p-2 w-80 rounded shadow">
+    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Tìm</button>
+</form>
+
+<p th:if="${error}" class="text-red-500 mb-2">Trường tìm kiếm không được để trống.</p>
+<p th:if="${#lists.isEmpty(results)} and !${error}" class="text-gray-600">Không tìm thấy sản phẩm phù hợp.</p>
+
+<table th:if="${not #lists.isEmpty(results)}" class="table-auto border-collapse border w-full">
+    <thead>
+    <tr>
+        <th class="border p-2">Mã sản phẩm</th>
+        <th class="border p-2">Tên sản phẩm</th>
+        <th class="border p-2">Giá</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="product : ${results}">
+        <td class="border p-2" th:text="${product.code}"></td>
+        <td class="border p-2" th:text="${product.name}"></td>
+        <td class="border p-2" th:text="${product.price} + ' ₫'"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
