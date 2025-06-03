@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Manager</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex h-screen bg-gray-100">
+<div class="bg-gray-100 min-h-screen p-6">
+    <div th:replace="fragments/layout :: body"></div>
+</div>
+<div class="p-6">
+    <h1 class="text-2xl font-bold mb-6">📦 Quản lý đơn hàng</h1>
+    <div class="overflow-x-auto">
+        <table class="min-w-full bg-white">
+            <thead>
+            <tr>
+                <th class="py-2 px-4 border-b">#</th>
+                <th class="py-2 px-4 border-b">Tên khách hàng</th>
+                <th class="py-2 px-4 border-b">Số điện thoại</th>
+                <th class="py-2 px-4 border-b">Địa chỉ</th>
+                <th class="py-2 px-4 border-b">Tổng tiền</th>
+                <th class="py-2 px-4 border-b">Hành động</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="order, iterStat : ${orders}">
+                <td th:text="${iterStat.index + 1}" class="py-2 px-4 border-b"></td>
+                <td th:text="${order.recipientName}" class="py-2 px-4 border-b"></td>
+                <td th:text="${order.phone}" class="py-2 px-4 border-b"></td>
+                <td th:text="${order.address}" class="py-2 px-4 border-b"></td>
+                <td th:text="${totalPrices}" class="py-2 px-4 border-b"></td>
+                <td class="py-2 px-4 border-b">
+                    <!-- Add action buttons here -->
+                    <button th:onclick="'viewOrder(' + ${order.id} + ')'" class="bg-blue-500 text-white py-1 px-3 rounded">Xem</button>
+                    <!-- Add more actions as needed -->
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="max-w-6xl mx-auto mt-12 flex justify-center">
+            <ul class="flex list-none gap-3">
+                <li th:if="${currentPage > 1}">
+                    <a
+                            th:href="@{/admin/orders(page=${currentPage - 1})}"
+                            class="px-3 py-1 rounded bg-indigo-100 text-indigo-600 hover:bg-indigo-200"
+                    >
+                        «
+                    </a>
+                </li>
+
+                <li th:each="i : ${#numbers.sequence(1, totalPages)}" th:classappend="${i == currentPage} ? 'bg-indigo-600 text-white' : 'bg-indigo-100 text-indigo-600'">
+                    <a
+                            th:href="@{/admin/orders(page=${i})}"
+                            class="px-4 py-1 rounded hover:bg-indigo-300 transition"
+                            th:text="${i}"
+                    >
+                        1
+                    </a>
+                </li>
+
+                <li th:if="${currentPage < totalPages}">
+                    <a
+                            th:href="@{/admin/orders(page=${currentPage + 1})}"
+                            class="px-3 py-1 rounded bg-indigo-100 text-indigo-600 hover:bg-indigo-200"
+                    >
+                        »
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
