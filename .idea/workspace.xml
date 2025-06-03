@@ -6,6 +6,47 @@
   <component name="ChangeListManager">
     <list default="true" id="48200b04-f6ed-4ad0-877c-e65d9125e93c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/config/WebInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/controller/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/listener/CleanupListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/model/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/model/CartItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/model/OrderDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/model/OrderForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/repository/CartRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/java/com/data/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/webapp/WEB-INF/views/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/webapp/WEB-INF/views/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/webapp/WEB-INF/views/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/webapp/WEB-INF/views/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/webapp/WEB-INF/views/product_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/webapp/WEB-INF/views/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +123,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/JavaWeb/PTIT_HN_K23_NguyenDacSon",
+    "last_opened_file_path": "E:/JavaWeb/ss17+18",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -139,6 +180,8 @@
       <workItem from="1748315989821" duration="5000" />
       <workItem from="1748326914675" duration="646000" />
       <workItem from="1748329597776" duration="643000" />
+      <workItem from="1748899223821" duration="43000" />
+      <workItem from="1748933352279" duration="642000" />
     </task>
     <servers />
   </component>
