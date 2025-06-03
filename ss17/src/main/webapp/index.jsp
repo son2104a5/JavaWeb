@@ -8,7 +8,7 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-Link video: https://drive.google.com/file/d/14b80LUDCdNeR1ABS_XxNnG5dnq_pOujM/view?usp=drive_link
+Link video: https://drive.google.com/file/d/1ObW2HlqbXhNPSzOrE1MhCdU1xdvLxyD0/view?usp=sharing
 <a href="auth/register">Bài tập</a>
 </body>
 </html>
