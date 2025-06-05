@@ -7,6 +7,7 @@
 <body>
 <h1><%= "Hello World!" %>
 </h1>
+Link: https://drive.google.com/file/d/16BjHMDC6eS7hCuIaAcNJEN1hL5cFU8qo/view?usp=sharing
 <br/>
 <a href="admin/users">B1</a>
 <br>
