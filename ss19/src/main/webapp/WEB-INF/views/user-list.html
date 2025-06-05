@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Quản lý người dùng</title>
+</head>
+<body>
+<h2>Danh sách người dùng</h2>
+<table border="1">
+    <thead>
+    <tr>
+        <th>ID</th><th>Username</th><th>Email</th><th>SĐT</th><th>Trạng thái</th><th>Hành động</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="u : ${users}">
+        <td th:text="${u.id}"></td>
+        <td th:text="${u.username}"></td>
+        <td th:text="${u.email}"></td>
+        <td th:text="${u.phoneNumber}"></td>
+        <td th:text="${u.isActive} ? 'Active' : 'Blocked'"></td>
+        <td>
+            <form th:action="@{'/admin/users/toggle/' + ${u.id}}" method="post">
+                <input type="hidden" name="page" th:value="${currentPage}" />
+                <button type="submit" th:text="${u.isActive} ? 'Block' : 'Open'"></button>
+            </form>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<div>
+    <span th:if="${currentPage > 1}">
+        <a th:href="@{'/admin/users?page=' + ${currentPage - 1}}">Previous</a>
+    </span>
+    <span th:each="i : ${#numbers.sequence(1, totalPages)}">
+        <a th:href="@{'/admin/users?page=' + ${i}}" th:text="${i}"></a>
+    </span>
+    <span th:if="${currentPage < totalPages}">
+        <a th:href="@{'/admin/users?page=' + ${currentPage + 1}}">Next</a>
+    </span>
+</div>
+</body>
+</html>

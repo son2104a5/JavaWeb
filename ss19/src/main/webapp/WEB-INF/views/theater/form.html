@@ -1,0 +1,21 @@
+<h2 th:text="${theater.id == null} ? 'Thêm rạp' : 'Cập nhật rạp'"></h2>
+<form th:action="@{/admin/theaters/save}" th:object="${theater}" method="post">
+    <input type="hidden" th:field="*{id}" />
+    <label>Tên rạp: <input th:field="*{theaterName}" /></label>
+    <span th:if="${#fields.hasErrors('theaterName')}" th:errors="*{theaterName}"></span><br/>
+
+    <label>Địa chỉ: <input th:field="*{address}" /></label>
+    <span th:if="${#fields.hasErrors('address')}" th:errors="*{address}"></span><br/>
+
+    <label>Số phòng chiếu: <input type="number" th:field="*{numberScreenRoom}" /></label>
+    <span th:if="${#fields.hasErrors('numberScreenRoom')}" th:errors="*{numberScreenRoom}"></span><br/>
+
+    <label>Trạng thái:
+        <select th:field="*{status}">
+            <option th:value="true">Đang hoạt động</option>
+            <option th:value="false">Ngừng hoạt động</option>
+        </select>
+    </label><br/>
+
+    <button type="submit">Lưu</button>
+</form>

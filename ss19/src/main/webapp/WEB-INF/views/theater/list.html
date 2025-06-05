@@ -1,0 +1,21 @@
+<h2>Danh sách rạp chiếu phim</h2>
+<a href="/admin/theaters/add">Thêm rạp</a>
+<table border="1">
+    <thead>
+    <tr><th>STT</th><th>Tên rạp</th><th>Địa chỉ</th><th>Số phòng</th><th>Trạng thái</th><th>Hành động</th></tr>
+    </thead>
+    <tbody>
+    <tr th:each="t, i : ${theaters}">
+        <td th:text="${i.index + 1}"></td>
+        <td th:text="${t.theaterName}"></td>
+        <td th:text="${t.address}"></td>
+        <td th:text="${t.numberScreenRoom}"></td>
+        <td th:text="${t.status} ? 'Đang hoạt động' : 'Ngừng hoạt động'"></td>
+        <td>
+            <a th:href="@{'/admin/theaters/edit/' + ${t.id}}">Sửa</a> |
+            <a th:href="@{'/admin/theaters/delete/' + ${t.id}}"
+               onclick="return confirm('Xác nhận xoá?')">Xoá</a>
+        </td>
+    </tr>
+    </tbody>
+</table>

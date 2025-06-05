@@ -1,0 +1,31 @@
+<h2 th:text="${movie.id == null} ? 'Thêm phim' : 'Cập nhật phim'"></h2>
+<form th:action="@{/admin/movies/save}" th:object="${movie}" method="post">
+    <input type="hidden" th:field="*{id}" />
+    <label>Tiêu đề: <input th:field="*{title}" /></label>
+    <span th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></span><br/>
+
+    <label>Đạo diễn: <input th:field="*{director}" /></label>
+    <span th:if="${#fields.hasErrors('director')}" th:errors="*{director}"></span><br/>
+
+    <label>Năm phát hành: <input type="number" th:field="*{releaseYear}" /></label>
+    <span th:if="${#fields.hasErrors('releaseYear')}" th:errors="*{releaseYear}"></span><br/>
+
+    <label>Thể loại: <input th:field="*{genre}" /></label><br/>
+
+    <label>Thời lượng (phút): <input type="number" th:field="*{duration}" /></label>
+    <span th:if="${#fields.hasErrors('duration')}" th:errors="*{duration}"></span><br/>
+
+    <label>Ngôn ngữ: <input th:field="*{language}" /></label><br/>
+
+    <label>Poster URL: <input th:field="*{poster}" /></label>
+    <span th:if="${#fields.hasErrors('poster')}" th:errors="*{poster}"></span><br/>
+
+    <label>Trạng thái:
+        <select th:field="*{status}">
+            <option th:value="true">Đang chiếu</option>
+            <option th:value="false">Ngừng chiếu</option>
+        </select>
+    </label><br/>
+
+    <button type="submit">Lưu</button>
+</form>

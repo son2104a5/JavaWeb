@@ -1,0 +1,22 @@
+<h2>Danh sách phim</h2>
+<a href="/admin/movies/add">Thêm phim</a>
+<table border="1">
+    <thead>
+    <tr><th>STT</th><th>Tên</th><th>Đạo diễn</th><th>Năm</th><th>Thể loại</th><th>Trạng thái</th><th>Hành động</th></tr>
+    </thead>
+    <tbody>
+    <tr th:each="m, iStat : ${movies}">
+        <td th:text="${iStat.index + 1}"></td>
+        <td th:text="${m.title}"></td>
+        <td th:text="${m.director}"></td>
+        <td th:text="${m.releaseYear}"></td>
+        <td th:text="${m.genre}"></td>
+        <td th:text="${m.status} ? 'Đang chiếu' : 'Ngừng chiếu'"></td>
+        <td>
+            <a th:href="@{'/admin/movies/edit/' + ${m.id}}">Sửa</a> |
+            <a th:href="@{'/admin/movies/delete/' + ${m.id}}"
+               onclick="return confirm('Xác nhận xoá?')">Xoá</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
